@@ -7,6 +7,7 @@ export const getAmplifyApp = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -23,6 +24,7 @@ export const listAmplifyApps = /* GraphQL */ `
         id
         name
         description
+        image
         createdAt
         updatedAt
       }

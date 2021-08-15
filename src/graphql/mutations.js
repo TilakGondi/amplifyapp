@@ -10,6 +10,7 @@ export const createAmplifyApp = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -24,6 +25,7 @@ export const updateAmplifyApp = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
@@ -38,6 +40,7 @@ export const deleteAmplifyApp = /* GraphQL */ `
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
